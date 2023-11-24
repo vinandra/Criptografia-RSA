@@ -4,17 +4,11 @@
 
 ## Setup
 
-1. Download and install [Node.js](https://nodejs.org) version `16.6.0`
-2. Install required and optional dependencies
+1. Download and install [Python](www.python.org) version `3.12.0`
+2. You can start
 
 ```sh
-$ yarn install
-```
-
-5. You can start
-
-```sh
-$ yarn start
+$ py main.py
 ```
 
 ## Contributing
