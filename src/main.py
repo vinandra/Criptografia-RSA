@@ -5,7 +5,7 @@ print("++++++ Criptografi RSA ++++++++++")
 plaintex = input("masukan simbol = ") 
 p = int(input("masukan nilai p = "))
 q = int(input("masukan nilai q = "))
-key = int(input("masukan key = "))
+# key = int(input("masukan key = "))
 
 n = p*q
 
