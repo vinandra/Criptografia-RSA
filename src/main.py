@@ -13,11 +13,16 @@ teta = (p-1)*(q-1)
 
 nilai_ascii = ord(plaintex)
 
+
 for k in range(1, 100):
     d = (1 + k * teta) / 19
     if d.is_integer():
         print(f"Nilai d yang memenuhi kondisi untuk k = {k}: {int(d)}")
         break
 
+c = pow(nilai_ascii, e, teta)
+ascii_symbol = chr(c)
+
 #output
-print(f"Plaintex : {plaintex}\nNilai n = {n}")
+print(f"Plaintex {plaintex} decimal = {nilai_ascii}\nNilai n = {n}")
+print(f"chiper  desimal  = {c},uabh menjadi simbol {ascii_symbol}")
