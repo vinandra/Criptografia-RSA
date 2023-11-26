@@ -8,7 +8,7 @@
 2. You can start
 
 ```sh
-$ py main.py
+$ py ./src/main.py
 ```
 
 ## Contributing
