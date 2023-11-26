@@ -13,16 +13,20 @@ teta = (p-1)*(q-1)
 
 nilai_ascii = ord(plaintex)
 
+binary_representation = bin(nilai_ascii)[2:]
 
 for k in range(1, 100):
-    d = (1 + k * teta) / 19
+    d = (1 + k * teta) / e
     if d.is_integer():
         print(f"Nilai d yang memenuhi kondisi untuk k = {k}: {int(d)}")
         break
 
 c = pow(nilai_ascii, e, teta)
+
 ascii_symbol = chr(c)
 
 #output
-print(f"Plaintex {plaintex} decimal = {nilai_ascii}\nNilai n = {n}")
-print(f"chiper  desimal  = {c},uabh menjadi simbol {ascii_symbol}")
+print("\n++++++ Answer ++++++")
+print(f"Plaintext {plaintex}, Biner = {binary_representation}, Decimal = {nilai_ascii}")
+print(f"Nilai n = {n}, Nilai teta = {teta}")
+print(f"chiper  = {c}, uabh menjadi simbol => {ascii_symbol}")
